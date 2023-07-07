@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: previous_scene_button
     m_Metadata:
       m_Items: []
+  - m_Id: 23469472534528
+    m_Key: click_to_next_scene
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

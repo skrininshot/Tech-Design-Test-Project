@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Previous scene
     m_Metadata:
       m_Items: []
+  - m_Id: 23469472534528
+    m_Localized: Click to load next scene
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
