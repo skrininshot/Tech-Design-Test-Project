@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8949016503737255816
+--- !u!1001 &7280168109058913360
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -101,7 +101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2545554372179015989, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_Name
-      value: button_next_scene
+      value: button_previous_scene
       objectReference: {fileID: 0}
     - target: {fileID: 2545554372179015991, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -114,39 +114,43 @@ PrefabInstance:
     - target: {fileID: 2545554372179015991, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 7220498241866163672}
+      objectReference: {fileID: 8383483112910912024}
     - target: {fileID: 2545554372179015991, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2545554372179015991, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadNextScene
+      value: LoadPreviousScene
       objectReference: {fileID: 0}
     - target: {fileID: 2545554372179015991, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ButtonNextScene, Assembly-CSharp
+      value: ButtonPreviousScene, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2545554372179015991, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8762949888255877867, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 16252698546176
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
---- !u!1 &6873314565404376765 stripped
+--- !u!1 &5069921114343951717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2545554372179015989, guid: 78af3fdca56d7374bb1c246831e63fdb, type: 3}
-  m_PrefabInstance: {fileID: 8949016503737255816}
+  m_PrefabInstance: {fileID: 7280168109058913360}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7220498241866163672
+--- !u!114 &8383483112910912024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6873314565404376765}
+  m_GameObject: {fileID: 5069921114343951717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ded02789616d3604482369e16541f7cd, type: 3}
+  m_Script: {fileID: 11500000, guid: daf467450fca5ae479d7ac2794e6db50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
